@@ -1,6 +1,7 @@
 import { SITE } from "@config";
 import { defineCollection, z } from "astro:content";
 
+// Defines the frontmatter schema for each blog post
 const blog = defineCollection({
   type: "content",
   schema: ({ image }) =>
