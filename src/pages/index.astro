@@ -31,33 +31,19 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         aria-label="rss feed"
         title="RSS Feed"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
+        <!-- RSS Feed SVG -->
+        <!-- <svg viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><rect height="512" rx="70" ry="70" transform="scale(-1)" width="512" x="-512" y="-512" fill="#ffffff" fill-opacity="1" stroke="none" class="fill-ea7819"></rect><path d="M81.056 267.05c43.705 0 84.79 17.072 115.665 48.124 30.931 31.051 47.961 72.411 47.961 116.44h67.35c0-127.885-103.62-231.921-230.976-231.921v67.357zm.106-119.4c155.76 0 282.488 127.42 282.488 284.049H431C431 237.925 274.054 80.301 81.162 80.301v67.35zm93.135 236.998c0 25.757-20.892 46.649-46.649 46.649-25.756 0-46.648-20.885-46.648-46.649C81 358.878 101.885 338 127.641 338c25.757 0 46.656 20.878 46.656 46.648z" fill="#af09eb" class="fill-ffffff"></path></svg> -->
       </a>
-
+      
       <p>
-        Hello! I'm DJ, a software engineer with a unique blend of technical expertise and extensive world class hospitality experience. After 10 years of working in the hospitality sector, I transitioned to software development in 2019, striving to combine my profound passion for technology with a decade's worth of finely-honed customer service skills derived from my experiences in prestigious hospitality environments. 
+        I'm DJ. I'm software engineer and I love to build things. Check out my <LinkButton
+        className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
+        href="/"
+      >
+        portfolio
+      </LinkButton> if you'd like to see some of my projects.
       </p>
-      <p>
-        I now extend these experiences to bridge the divide between stakeholders and developers seamlessly. Pioneering my journey with frontend contract work, I transitioned into full-stack development and made significant strides across various industries including API development, cloud based solution engineering, and AI-driven applications. My diversified hands-on experience in API integration, CI/CD pipelines, networking, RESTful APIs, cloud services, and team leadership, coupled with AWS-certified expertise, enable me to deliver robust and scalable solutions.
-        </p>
-        <>
-        Adapting comfortably between different product challenges & technology stacks, I constantly strive to bridge the gap between technical requirements and business needs, ensuring successful project execution and delivery.
-      </>
-      <p>
-        Check out my blog posts, TIL posts, or projects I've worked on.
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
+      <br />
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
