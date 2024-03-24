@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://djwebdev.io", // replace this with your deployed domain
   author: "DJ Carrillo",
   desc: "DJ's minimal, responsive and SEO-friendly tech blog.",
-  title: "DJ's Blog",
+  title: "DJ6",
   ogImage: "astropaper-og.jpg", // From "public" directory
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -14,7 +14,7 @@ export const LOCALE = ["en-EN"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
   enable: false,
-  svg: true,
+  svg: false,
   width: 216,
   height: 46,
 };
@@ -39,9 +39,9 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
   {
-    name: "X",
+    name: "Twitter",
     href: "https://x.com/Djcarrillo6",
     linkTitle: `${SITE.title} on X`,
-    active: false,
+    active: true,
   },
 ];
