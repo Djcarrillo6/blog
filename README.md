@@ -1,1 +1,1 @@
-# DJ's Blog Repository
+# DJ's Astro Blog Repository
