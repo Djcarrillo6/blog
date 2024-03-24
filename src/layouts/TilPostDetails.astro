@@ -19,7 +19,7 @@ const { Content } = await tilPost.render();
 
 const ogImageUrl = typeof ogImage === "string" ? ogImage : ogImage?.src;
 const ogUrl = new URL(
-  ogImageUrl ?? `/tils/${slugifyStr(title)}.png`,
+  ogImageUrl ?? `/til/${slugifyStr(title)}.png`,
   Astro.url.origin
 ).href;
 ---

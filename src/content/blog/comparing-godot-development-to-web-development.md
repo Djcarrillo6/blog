@@ -3,7 +3,7 @@ author: David Carrillo
 pubDatetime: 2024-03-24
 title: Comparing Godot development to web development
 postSlug: ""
-featured: false
+featured: true
 draft: false
 tags:
   - web-development

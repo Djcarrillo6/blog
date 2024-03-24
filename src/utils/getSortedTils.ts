@@ -1,7 +1,7 @@
 import type { CollectionEntry } from "astro:content";
 
-const getSortedTils = (tils: CollectionEntry<"til">[]) =>
-  tils
+const getSortedTils = (tilsCollection: CollectionEntry<"til">[]) =>
+  tilsCollection
     .filter(({ data }) => !data.draft)
     .sort(
       (a, b) =>
