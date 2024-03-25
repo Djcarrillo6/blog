@@ -1,7 +1,7 @@
 ---
 author: David Carrillo
 pubDatetime: 2024-03-25
-title: Kubernetes - A Detailed Look Into Containers, Kubernetes, WASM, & Home Cloud Computing
+title: An Intriguing Look Into Containers, Kubernetes, WASM, & Home Cloud Computing
 postSlug: ""
 featured: true
 draft: false
@@ -14,9 +14,9 @@ tags:
 description: Explore the fascinating world of Kubernetes and container orchestration in this deep-dive post. Learn about bare metal servers, cloud provider security, Docker, and the future potential of WASM, all wrapped up with an exciting glimpse into a hands-on Raspberry Pi & Kubernetes home cloud project.
 ---
 
-# Kubernetes: A Deep Dive Into Containerization
+# Kubernetes: An Intriguing Dive Into Containerization
 
-As a software engineer, specializing in backend and cloud development, I felt it was high time I take a closer look into Kubernetes, the reigning champion of container orchestration. After a deep-dive tutorial, I've gathered some key insights I'd like to share with you all.
+As a software engineer, specializing in backend and cloud development, I felt it was high time I take a closer look into Kubernetes, the reigning champion of container orchestration.
 
 ## **The Bare Metal Effect and Cloud Cost Soaring**
 

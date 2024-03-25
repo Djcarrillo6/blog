@@ -6,8 +6,8 @@ postSlug: ""
 featured: true
 draft: false
 tags:
-  - web-development
   - game-development
+  - godot
 description: What are the fundamental principles of game development from the perspective from a web developer?
 ---
 
