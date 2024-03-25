@@ -69,8 +69,8 @@ In this evolving scene of WASM vs Containers, certain key factors **give WASM a 
 
 In the next few years, Kubernetes should be able to run both container-based and WASM module-based workloads. As such, mastering the fundamentals of Kubernetes' control plane would be an excellent way to prepare for this inevitable change. So as software engineers, let's keep exploring and learning. As I expand my knowledge of Kubernetes and WASM, I will keep sharing my learning journey with you all. After all, as the cloud skyrockets, we ground ourselves in the knowledge necessary to navigate these evolving terrains.
 
-## **What I'm Buiding Next**
+## **What I'm Building Next**
 
-As I journey deeper into the landscape of cloud computing and edge technology, I want to try setting up a home cloud system powered by Raspberry Pi & Kubernetes. In this setup, I'll use four Raspberry Pi 4B models running on a self-hosted cluster rack. This mini ecosystem, fuelled by Kubernetes, will be my sandbox to play with, experiment, and bring to life the theories and concepts I've been exploring. I'll be posting updates on the progress of this journey!
+As I journey deeper into the landscape of cloud computing and edge technology, I want to try setting up a home cloud system powered by Raspberry Pi & Kubernetes. In this setup, I'll use four Raspberry Pi 4B models running on a self-hosted cluster rack. This mini ecosystem, fueled by Kubernetes, will be my sandbox to play with, experiment, and bring to life the theories and concepts I've been exploring. I'll be posting updates on the progress of this journey!
 
 🚀 #Kubernetes #HomeCloudComputing #RaspberryPi
